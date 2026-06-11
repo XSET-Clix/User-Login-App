@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: Georgia, serif;
+}
+.border {
+    width: 330px;
+    margin: 40px auto;
+    background-color: #a8c7d4;
+    padding-bottom: 25px;
+    border: 1px solid #cfd8dc;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15)
+}
+.header {
+    background-color: #1f6b8a;
+    padding: 20px;
+}
+.word {
+    color: white;
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+}
+.msg {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin: 15px 0;
+}
+.textbox {
+    width: 200px;
+    height: 38px;
+    padding: 5px;
+    border: 2px solid #27485b;
+    border-radius: 8px;
+    background-color: #1f6b8a;
+    color: white;
+    text-align: center;
+    outline: none;
+    font-size: 14px;
+}
+.textbox::placeholder {
+    color: #ffffff;
+    font-style: italic;
+}
+.btn {
+    width: 120px;
+    height: 40px;
+    background-color: #1f6b8a;
+    color:white;
+    border: 2px solid #27485b;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn:hover {
+    background-color: #15536d;
+}
+.bottom {
+    text-align: center;
+    color: #1f6b8a;
+    font-style: italic;
+    margin-top: 15px;
+}
+.bottom a {
+    color: #1f6b8a;
+    text-decoration: none;
+    font-weight: bold;
+}
+.bottom a:hover {
+    text-decoration: underline;
+}
